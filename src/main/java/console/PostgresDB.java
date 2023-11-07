@@ -5,12 +5,12 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class PotgresDB
+public class PostgresDB
 {
     public Connection connection;
     public Statement statement;
 
-    public PotgresDB()
+    public PostgresDB()
     {
         connect();
     }
